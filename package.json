@@ -1,7 +1,7 @@
 {
   "name": "jest-label",
   "version": "1.0.0",
-  "description": "",
+  "description": "A labeling utility for jest tests",
   "main": "src/label.js",
   "scripts": {
     "test": "jest"
@@ -18,13 +18,13 @@
     "name": "Steven Scaffidi",
     "email": "sscaff1@gmail.com"
   },
-  "homepage": "",
+  "homepage": "https://github.com/sscaff1/jest-label",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/sscaff1/jest-label/issues"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sscaff1/jest-label"
   },
   "license": "MIT"
 }
