@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`label (Test Type: Integration) should be successfully applied for {"name": "mock", "traits": "Slow", "type": "Integration"} should match snapshot 1`] = `"(Test Type: Integration, Test Traits: Slow) mock"`;
+
+exports[`label (Test Type: Integration) should be successfully applied for {"name": "mock", "traits": [Array], "type": "Integration"} should match snapshot 1`] = `"(Test Type: Integration, Test Traits: Slow) mock"`;
+
+exports[`label (Test Type: Integration) should be successfully applied for {"name": "mock", "type": "Unit"} should match snapshot 1`] = `"(Test Type: Unit) mock"`;
+
+exports[`label (Test Type: Integration) should throw an error when attempted for {"name": "mock", "traits": "__fake__", "type": "Unit"} should match error snapshot 1`] = `"You passed invalid traits"`;
+
+exports[`label (Test Type: Integration) should throw an error when attempted for {"name": "mock", "traits": [Array], "type": "Unit"} should match error snapshot 1`] = `"You passed invalid traits"`;
+
+exports[`label (Test Type: Integration) should throw an error when attempted for {"name": "mock", "traits": [Array], "type": "Unit"} should match error snapshot 2`] = `"You passed invalid traits"`;
+
+exports[`label (Test Type: Integration) should throw an error when attempted for {"name": "mock", "type": "fake"} should match error snapshot 1`] = `"All tests must be labeled with a valid type"`;
+
+exports[`label (Test Type: Integration) should throw an error when attempted for {"name": "mock", "type": null} should match error snapshot 1`] = `"All tests must be labeled with a valid type"`;
+
+exports[`label (Test Type: Integration) should throw an error when attempted for {"name": "mock"} should match error snapshot 1`] = `"All tests must be labeled with a valid type"`;

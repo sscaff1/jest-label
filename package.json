@@ -1,0 +1,30 @@
+{
+  "name": "jest-label",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/label.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "jest": "*"
+  },
+  "keywords": [
+    "jest plugin",
+    "labeling tests",
+    "unit testing"
+  ],
+  "author": {
+    "name": "Steven Scaffidi",
+    "email": "sscaff1@gmail.com"
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}
